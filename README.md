@@ -64,7 +64,7 @@ chmod +x main
 Distributed under the GNU License. See [GNU License](https://www.gnu.org/licenses/gpl-3.0.html#license-text) for more information.
 ## Contact
 
-- Telegram: [@xNOTHlNGx](t.me/xNOTHlNGx) 
+- Telegram: [@xNOTHlNGx](https://t.me/xNOTHlNGx) 
 - Email: [not_a_nothing@proton.me](mailto:not_a_nothing@proton.me)
 
 Project Link: [https://github.com/xNOTHlNGx/system-destroyer](https://github.com/xNOTHlNGx/system-destroyer)
