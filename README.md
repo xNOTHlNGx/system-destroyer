@@ -11,7 +11,7 @@ Elegant way to destroy system
 <br/>
 <br/>
   
-<a href="https://github.com/xNOTHlNGx/system-destroyer/issues/new?labels=bug&template=bug-report---.md">Report Bug .</a>
+<a href="https://github.com/xNOTHlNGx/system-destroyer/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
 
 </p>
 </div>
