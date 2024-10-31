@@ -74,7 +74,7 @@ Use this commands to build this project. Note that for different systems buildin
 
 Just run previously built executable or your or your friend computer and see how your system is getting destroyed :)
 
-**Disclaimer: This script can potentially damage your system and delete important data. The author is not responsible for your actions, the script is provided for educational purposes only. This script can potentially damage your system and delete important data. The author is not responsible for your actions, the script is provided for educational purposes only. Use only if you have a backup of your data and know what you are doing.**
+**Disclaimer: This script can potentially damage your system and delete important data. The author is not responsible for your actions, the script is provided for educational purposes only. Use only if you have a backup of your data and know what you are doing.**
 ```sh
 chmod +x main
 ./main
