@@ -40,7 +40,7 @@ success:
     mov rax, 1                ; sys call 1: write
     mov rdi, 1                ; file handle 1: stdout
     mov rsi, message          ; message address
-    mov rdx, message          ; message length
+    mov rdx, message_len      ; message length
     syscall
 
     ; Exit program
