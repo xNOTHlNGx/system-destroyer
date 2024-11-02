@@ -82,7 +82,7 @@ chmod +x main
 
 ## Useful links
 
-Here are sime links that can be useful if you are learning nasm 
+Here are some links that can be useful if you are learning nasm 
  - [NASM Tutorial](https://cs.lmu.edu/~ray/notes/nasmtutorial/)
  - [Linux system calls table](https://syscall.sh/)
 
