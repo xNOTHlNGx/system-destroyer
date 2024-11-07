@@ -44,7 +44,7 @@ To build and use this project you need to install `nasm` and `binutils` packages
   ```sh
   sudo pkg install nasm binutils
   ```
-### Installation
+### Building
 
 Use this commands to build this project. Note that for different systems building process may be different.
 
