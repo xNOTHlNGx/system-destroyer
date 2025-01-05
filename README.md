@@ -88,7 +88,7 @@ Here are some links that can be useful if you are learning nasm
 
 ## License
 
-Distributed under the GPL License. See [GPL License](https://www.gnu.org/licenses/gpl-3.0.html#license-text) for more information.
+Distributed under the DFC License. See [DFC License](https://raw.githubusercontent.com/xNOTHlNGx/DFC-license/refs/heads/main/LICENSE) for more information.
 ## Contact
 
 - Telegram: [@xNOTHlNGx](https://t.me/xNOTHlNGx) 
